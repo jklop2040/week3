@@ -18,6 +18,16 @@ function pageLoad() {
   // write an if.. else if.. else statement to evaluate the value of 'total'
   // and set the value of 'output' appropriately
 
+  let value
+
+  if (total == 7 || total == 11) {
+    output = 'nautral winner'
+  } else if (total == 12 || total == 3 || total == 2) {
+  output = 'craps'
+  } else {
+  output = 'the point is' ${total}
+  }
+
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 
   // Leave this alone

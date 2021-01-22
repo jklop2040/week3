@@ -34,7 +34,29 @@ function pageLoad() {
   // 👇 YOUR CODE BEGINS HERE. DON'T CHANGE ANY OTHER CODE. 👇
 
   // 🔥🔥🔥 YOUR CODE GOES HERE 🔥🔥🔥
-  console.log(database)
+console.log (database)
+
+numberOfProducts= database.products.length
+
+products = database.products
+
+let promotion1 = database.promotions [getRandomInt]
+let promotion2 = database.promotions [getRandomInt]
+let promotion3 = database.promotions [getRandomInt]
+
+console.log(promotion1)
+console.log(promotion2)
+console.log(promotion3)
+
+
+promotion1description = promotion1.description
+promotion2description = promotion2.description
+promotion3description = promotion3.description
+
+
+if (promotion1.type == "contest") {
+  promotions ='✔'
+}
 
   //  👆 YOUR CODE ENDS HERE. DON'T CHANGE ANY OTHER CODE 👆
 }
